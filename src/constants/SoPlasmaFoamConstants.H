@@ -1,10 +1,10 @@
 /*---------------------------------------------------------------------------*\
-  File: SoPLASMAConstants.C
-  Part of: SoPLASMA
+  File: SoPlasmaFoamConstants.H
+  Part of: SoPlasmaFoam
 
   Description:
-      Implementation file that instantiates all physical constants declared in
-      SoPLASMAConstants.H.
+      Aggregated header including all physical constants defined within the
+      SoPlasmaFoam. 
 
   Namespace:
       Foam::constant
@@ -14,6 +14,15 @@
       See: <http://www.gnu.org/licenses/>.
 \*---------------------------------------------------------------------------*/
 
-#include "plasmaConstants.C"
+#ifndef SoPlasmaFoamConstants_H
+#define SoPlasmaFoamConstants_H
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+#include "plasmaConstants.H"
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+#endif
 
 // ************************************************************************* //

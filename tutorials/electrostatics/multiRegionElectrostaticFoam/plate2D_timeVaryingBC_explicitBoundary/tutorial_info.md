@@ -3,7 +3,7 @@
 **Solver:** `multiRegionElectrostaticFoam`  
 **Case:** 2D two-region plate with time-varying Dirichlet boundary and explicit interface coupling   
 **Author:** Rention Pasolari  
-**Toolkit:** SoPLASMA  
+**Toolkit:** SoPlasmaFoam  
 **License:** GPLv3  
 **Date:** November 2025 
 

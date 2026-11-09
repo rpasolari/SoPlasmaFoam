@@ -1,6 +1,6 @@
 /*---------------------------------------------------------------------------*\
   File: reportSimulationSummary.H
-  Part of: SoPLASMA
+  Part of: SoPlasmaFoam
   Developed using the OpenFOAM framework and linked against OpenFOAM libraries.
 
   Description:
@@ -44,7 +44,7 @@ auto labelListStr = [](const labelList& ids) -> std::string
 Info<< nl
     << HL.c_str() << nl
     << "##" << nl
-    << "##    SoPLASMA  —  simulation configuration" << nl
+    << "##    SoPlasmaFoam  —  simulation configuration" << nl
     << "##" << nl
     << HL.c_str() << nl << endl;
 

@@ -3,7 +3,7 @@
 **Solver:** `soPlasmaFoam`  
 **Case:** 2D axisymmetric positive streamer in dry air  
 **Author:** Rention Pasolari  
-**Toolkit:** SoPLASMA  
+**Toolkit:** SoPlasmaFoam  
 **License:** GPLv3  
 **Date:** June 2026
 

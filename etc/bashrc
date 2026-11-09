@@ -1,10 +1,10 @@
 #------------------------------------------------------------------------------#
 #  File: bashrc
-#  Part of: SoPLASMA
+#  Part of: SoPlasmaFoam
 #  Developed for use with the OpenFOAM framework.
 #
 #  Description:
-#      Environment setup script for SoPLASMA.
+#      Environment setup script for SoPlasmaFoam.
 #
 #  Author: Rention Pasolari
 #  Copyright (C) 2025
@@ -12,14 +12,14 @@
 #      See: <http://www.gnu.org/licenses/>.
 #------------------------------------------------------------------------------#
 
-# Determine SoPLASMA root directory (one level above this file)
-export SoPLASMA=$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)
-alias SoPLASMA='cd "$SoPLASMA"'
+# Determine SoPlasmaFoam root directory (one level above this file)
+export SoPlasmaFoam=$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)
+alias SoPlasmaFoam='cd "$SoPlasmaFoam"'
 
-export SoPLASMA_ETC="$SoPLASMA/etc"
+export SoPlasmaFoam_ETC="$SoPlasmaFoam/etc"
 
-export SoPLASMA_TUTORIALS="$SoPLASMA/tutorials"
+export SoPlasmaFoam_TUTORIALS="$SoPlasmaFoam/tutorials"
 
-export SoPLASMA_SRC="$SoPLASMA/src"
+export SoPlasmaFoam_SRC="$SoPlasmaFoam/src"
 
-export SoPLASMA_THIRD_PARTY="$SoPLASMA/ThirdParty"
+export SoPlasmaFoam_THIRD_PARTY="$SoPlasmaFoam/ThirdParty"

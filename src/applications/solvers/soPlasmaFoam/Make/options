@@ -7,15 +7,15 @@ EXE_INC = \
     -I$(LIB_SRC)/dynamicMesh/lnInclude \
     -I$(LIB_SRC)/dynamicFvMesh/lnInclude \
     -I$(LIB_SRC)/OpenFOAM/lnInclude \
-    -I$(SoPLASMA_SRC)/constants/lnInclude \
-    -I$(SoPLASMA_SRC)/models/electromagnetics/lnInclude \
-    -I$(SoPLASMA_SRC)/bcs/lnInclude \
-    -I$(SoPLASMA_SRC)/models/plasmaModels/plasmaSpecies/lnInclude \
-    -I$(SoPLASMA_SRC)/models/plasmaModels/plasmaTransport/lnInclude \
-    -I$(SoPLASMA_SRC)/models/plasmaModels/genericPlasmaProperties/lnInclude \
-    -I$(SoPLASMA_SRC)/numerics/lnInclude \
-    -I$(SoPLASMA_SRC)/profilers/lnInclude \
-    -I$(SoPLASMA_SRC)/tools/lnInclude \
+    -I$(SoPlasmaFoam_SRC)/constants/lnInclude \
+    -I$(SoPlasmaFoam_SRC)/models/electromagnetics/lnInclude \
+    -I$(SoPlasmaFoam_SRC)/bcs/lnInclude \
+    -I$(SoPlasmaFoam_SRC)/models/plasmaModels/plasmaSpecies/lnInclude \
+    -I$(SoPlasmaFoam_SRC)/models/plasmaModels/plasmaTransport/lnInclude \
+    -I$(SoPlasmaFoam_SRC)/models/plasmaModels/genericPlasmaProperties/lnInclude \
+    -I$(SoPlasmaFoam_SRC)/numerics/lnInclude \
+    -I$(SoPlasmaFoam_SRC)/profilers/lnInclude \
+    -I$(SoPlasmaFoam_SRC)/tools/lnInclude \
     
 
 EXE_LIBS = \
@@ -26,7 +26,7 @@ EXE_LIBS = \
     -ldynamicMesh \
     -ldynamicFvMesh \
     -lOpenFOAM \
-    -lSoPLASMAConstants \
+    -lSoPlasmaFoamConstants \
     -lplasmaElectromagnetics \
     -lplasmaBcs \
     -lplasmaSpecies \

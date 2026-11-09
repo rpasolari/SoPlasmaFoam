@@ -2,8 +2,8 @@ EXE_INC = \
     -I$(LIB_SRC)/finiteVolume/lnInclude \
     -I$(LIB_SRC)/meshTools/lnInclude \
     -I$(LIB_SRC)/OpenFOAM/lnInclude \
-    -I$(SoPLASMA_SRC)/constants/lnInclude \
-    -I$(SoPLASMA_SRC)/models/electromagnetics/lnInclude
+    -I$(SoPlasmaFoam_SRC)/constants/lnInclude \
+    -I$(SoPlasmaFoam_SRC)/models/electromagnetics/lnInclude
 
 
 EXE_LIBS = \
@@ -12,7 +12,7 @@ EXE_LIBS = \
     -lfvOptions \
     -lmeshTools \
     -lOpenFOAM \
-    -lSoPLASMAConstants \
+    -lSoPlasmaFoamConstants \
     -lplasmaElectromagnetics
 
     

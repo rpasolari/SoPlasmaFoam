@@ -1,6 +1,6 @@
 /*---------------------------------------------------------------------------*\
   File: coupledElectricPotentialFvPatchScalarField.C
-  Part of: SoPLASMA
+  Part of: SoPlasmaFoam
   Developed using the OpenFOAM framework and linked against OpenFOAM libraries.
 
   Description:
@@ -19,7 +19,7 @@
 #include "mappedPatchFieldBase.H"
 
 #include "coupledElectricPotentialFvPatchScalarField.H"
-#include "SoPLASMAConstants.H"
+#include "SoPlasmaFoamConstants.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

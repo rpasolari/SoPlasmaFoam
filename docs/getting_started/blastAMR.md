@@ -1,6 +1,6 @@
 # blastAMR Installation Guide
 
-`SoPLASMA` optionally supports **blastAMR**, which provides adaptive mesh refinement
+`SoPlasmaFoam` optionally supports **blastAMR**, which provides adaptive mesh refinement
 on hexahedral and polyhedral meshes in 1D, 2D, 2D-axisymmetric, and 3D configurations,
 with dynamic load-balancing for parallel simulations.
 
@@ -18,16 +18,16 @@ This documentation and functionality rely on the following project:
 
 ## blastAMR Installation / Setup
 
-> **Note:** *`blastAMR` is automatically compiled during the build of `SoPLASMA`.
+> **Note:** *`blastAMR` is automatically compiled during the build of `SoPlasmaFoam`.
 > When you install the toolkit, it will build `blastAMR` automatically.*
 
-> *If `SoPLASMA` was installed **before** blastAMR, you need to compile it manually
+> *If `SoPlasmaFoam` was installed **before** blastAMR, you need to compile it manually
 > by following the steps below.*
 
-### 1. Go to blastAMR ThirdParty directory (SoPLASMA)
+### 1. Go to blastAMR ThirdParty directory (SoPlasmaFoam)
 
 ```bash
-cd $SoPLASMA_THIRD_PARTY/blastAMR
+cd $SoPlasmaFoam_THIRD_PARTY/blastAMR
 ```
 
 ### 2. Build blastAMR
@@ -57,7 +57,7 @@ gedit ~/.bashrc
 Add the following lines:
 
 ```bash
-export AMRLB_PROJECT=$SoPLASMA_THIRD_PARTY/blastAMR
+export AMRLB_PROJECT=$SoPlasmaFoam_THIRD_PARTY/blastAMR
 export FOAM_CODE_TEMPLATES=$AMRLB_PROJECT/etc/codeTemplates/dynamicCode
 ```
 

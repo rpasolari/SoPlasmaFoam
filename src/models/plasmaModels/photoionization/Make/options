@@ -4,7 +4,7 @@ EXE_INC = \
     -I$(LIB_SRC)/dynamicMesh/lnInclude \
     -I$(LIB_SRC)/dynamicFvMesh/lnInclude \
     -I$(LIB_SRC)/OpenFOAM/lnInclude \
-    -I$(SoPLASMA_SRC)/constants/lnInclude \
+    -I$(SoPlasmaFoam_SRC)/constants/lnInclude \
 
 LIB_LIBS = \
     -L$(FOAM_USER_LIBBIN) \
@@ -14,4 +14,4 @@ LIB_LIBS = \
     -ldynamicMesh \
     -ldynamicFvMesh \
     -lOpenFOAM \
-    -lSoPLASMAConstants
+    -lSoPlasmaFoamConstants

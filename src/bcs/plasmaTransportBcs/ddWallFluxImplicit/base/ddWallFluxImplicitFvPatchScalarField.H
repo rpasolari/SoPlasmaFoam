@@ -1,8 +1,8 @@
 /*---------------------------------------------------------------------------*\
 License
-    This file is part of the SoPLASMA.
+    This file is part of the SoPlasmaFoam.
 
-    The SoPLASMA is not part of OpenFOAM but is developed using the
+    The SoPlasmaFoam is not part of OpenFOAM but is developed using the
     OpenFOAM framework and linked against OpenFOAM libraries.
 
     Copyright (C) 2026 Rention Pasolari
@@ -51,7 +51,7 @@ SourceFiles
 #include "fvPatchField.H"
 #include "fvPatchFieldMapper.H"
 
-#include "SoPLASMAConstants.H"
+#include "SoPlasmaFoamConstants.H"
 #include "plasmaSpecies.H"
 #include "plasmaTransport.H"
 #include "driftDiffusion.H"

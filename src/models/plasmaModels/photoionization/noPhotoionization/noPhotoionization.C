@@ -1,6 +1,6 @@
 /*---------------------------------------------------------------------------*\
   File: noPhotoionization.C
-  Part of: SoPLASMA
+  Part of: SoPlasmaFoam
   Developed using the OpenFOAM framework and linked against OpenFOAM libraries.
 
   Description:

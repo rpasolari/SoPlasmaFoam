@@ -1,10 +1,10 @@
 /*---------------------------------------------------------------------------*\
   File: plasmaConstants.H
-  Part of: SoPLASMA
+  Part of: SoPlasmaFoam
 
   Description:
       Header providing plasma-related physical constants for use throughout
-      the SoPLASMA. These constants follow the OpenFOAM conventions
+      the SoPlasmaFoam. These constants follow the OpenFOAM conventions
       for dimensioned types and are intended for shared use by solvers,
       models, and boundary conditions.
 

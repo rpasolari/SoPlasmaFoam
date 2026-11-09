@@ -1,6 +1,6 @@
 /*---------------------------------------------------------------------------*\
   File: plasmaConstants.C
-  Part of: SoPLASMA
+  Part of: SoPlasmaFoam
 
   Description:
       Implementation file for plasma-related physical constants declared in

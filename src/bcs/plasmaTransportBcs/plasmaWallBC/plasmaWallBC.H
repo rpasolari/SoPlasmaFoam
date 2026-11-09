@@ -1,8 +1,8 @@
 /*---------------------------------------------------------------------------*\
 License
-    This file is part of the SoPLASMA.
+    This file is part of the SoPlasmaFoam.
 
-    The SoPLASMA is not part of OpenFOAM but is developed using the
+    The SoPlasmaFoam is not part of OpenFOAM but is developed using the
     OpenFOAM framework and linked against OpenFOAM libraries.
 
     Copyright (C) 2026 Rention Pasolari
@@ -25,7 +25,7 @@ Class
 
 Description
     Abstract wall boundary condition interface. Serves as a base for all
-    SoPLASMA wall boundary conditions that need to support surface charging.
+    SoPlasmaFoam wall boundary conditions that need to support surface charging.
     All wall BCs derive from this so they can be found via dynamic_cast
     using this type.
     
